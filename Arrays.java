@@ -13,13 +13,11 @@ public class Arrays
             System.out.println(i);
         }
         for (int i = 0; i < strArray.length; i++) {
-                strArray[i] = strArray[i];
                 System.out.print(strArray[i]);
         }
-        for (int i = 0; i < strArray.length; i++) {
-                strArray[i] = strArray [i];
-                System.out.print("-" + strArray[i]);
-                
+        System.out.println();
+        for (int g = 0; g < strArray.length; g++) {
+                System.out.print(strArray[g] + "-");
         }
     }
-        }
+}
